@@ -1,0 +1,101 @@
+body {
+  font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-image: url(../content/fondo2.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header {
+  text-align: center;
+  margin: 15px 0;
+}
+
+header h1 {
+  background-color: #e6e6fa;
+  color: #bbb9e8;
+  text-align: center;
+  border-radius: 8%;
+}
+img {
+  border-radius: 10%;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.menu_intuitivo {
+  background: #0080ffce;
+  font-size: 22px;
+  color: #0059ff;
+  border-radius: 2%;
+  text-align: left;
+
+  margin :5px 0px;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+.menu_intuitivo li a:hover {
+  color: #fff;
+  background-color: #e90f75;
+  border-radius: 5px;
+  padding: 13px;
+  
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 10px 10px;
+}
+
+nav a {
+  color: #ffd7dd;
+  text-decoration: none;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+}
+
+.img_logo¨ {
+  width: 20px;
+  height: 20px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: initial;
+  margin: 40px 0;
+}

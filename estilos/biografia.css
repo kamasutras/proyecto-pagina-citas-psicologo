@@ -1,0 +1,35 @@
+.container_bio {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f570;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4%;
+}
+
+div img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.image_bio img {
+  max-width: 45%;
+  height: auto;
+}
+
+.titulo_bio {
+  margin-top: 0;
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #666;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}

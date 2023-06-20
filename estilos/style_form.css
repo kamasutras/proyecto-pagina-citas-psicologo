@@ -1,0 +1,77 @@
+
+
+.form_login {
+  background-image: url(../content/fond.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+
+.form_register {
+  background-image: url(../content/fond.png);
+  padding: 25px;
+  border-radius: 15px;
+}
+.form_reservas {
+  background-image: url(../content/fond.png);
+  padding: 50px;
+  border-radius: 15px;
+}
+
+#motivo {
+  padding: 10px;
+  border-radius: 15px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+.optionradio {
+  margin-left: 150px;
+  letter-spacing: 0.2mm;
+
+}
+
+
+
+form h2 {
+  font-size: 35px;
+}
+
+form label {
+  font-size: 18px;
+}
+
+
+.button_form{
+  padding: 10px 15px;
+  background: #8d5895;
+  border: 0;
+  color: #fff;  
+  cursor: pointer; 
+  font-size: 20px;
+  margin: 20px 0px;
+}
+.button_form:hover{
+  transition: all 0.5s ease-in-out;
+  background-color:rgba(214, 33, 48, 0.696) ;
+  color:blanchedalmond;
+}
+
+form .motivotext {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  resize: none;
+}
